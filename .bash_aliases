@@ -2,7 +2,7 @@ alias sail='./vendor/bin/sail'
 alias rector='vendor/bin/rector'
 alias a="php artisan"
 alias c="composer"
-alias larastan="vendor/bin/phpstan analyse"
+alias larastan="clear && vendor/bin/phpstan analyse"
 alias larastancc="vendor/bin/phpstan clear-result-cache"
 alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias hosts="code /etc/hosts"
